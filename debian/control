@@ -1,0 +1,13 @@
+Source: racket-example-debian-package
+Priority: optional
+Maintainer: Rick van de Loo <rickvandeloo@gmail.com>
+Build-Depends: debhelper (>= 10.0.0), racket
+Standards-Version: 4.5.1
+Homepage: https://github.com/vdloo/racket-example-debian-package
+Vcs-Git: git@github.com:vdloo/racket-example-debian-package.git
+
+Package: racket-example-debian-package
+Section: utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: An example Debian package for distributing Racket code as a deb

@@ -1,0 +1,5 @@
+*.swp
+*.swo
+compiled/
+doc/
+output/

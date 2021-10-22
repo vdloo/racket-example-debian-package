@@ -1,0 +1,7 @@
+racket-example-debian-package (20211022.145506) UNRELEASED; urgency=medium
+
+  [ Rick van de Loo ]
+  * add debian packaging
+
+ -- Rick van de Loo <vdloo@desktop>  Fri, 22 Oct 2021 15:16:37 +0200
+

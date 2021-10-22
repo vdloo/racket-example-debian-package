@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+build:
+	mkdir -p output
+	raco exe -o output/racket-example-debian-package main.rkt
+	raco distribute usr output/racket-example-debian-package
+%:
+	dh $@
